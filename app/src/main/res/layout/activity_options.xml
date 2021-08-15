@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".OptionsActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow"
+        android:scaleX="-1"
+        >
+    </ImageView>
+
+<ImageView
+    android:id="@+id/logout"
+    android:layout_width="@dimen/_130sdp"
+    android:layout_height="@dimen/_130sdp"
+    android:src="@drawable/logout"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_50sdp"
+    />
+    <TextView
+        android:id="@+id/logoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="Logout"
+        android:textColor="@color/darkBlue"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:src="@drawable/info"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_60sdp"
+        />
+    <TextView
+        android:id="@+id/aboutTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="About"
+        android:textColor="@color/darkBlue"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+
+</LinearLayout>

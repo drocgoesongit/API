@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".PaymentActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_options_menu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="A P I"
+            android:textColor="@color/darkBlue"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="342dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="Confirm and proceed to pay"
+        android:textColor="@color/darkBlue"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_weight="0"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/brightBlue"
+        android:drawableRight="@drawable/ic_arrow"
+        android:drawableTint="@color/darkBlue"
+        android:text="Pay"
+
+        android:textColor="@color/darkBlue"
+        android:textSize="@dimen/_15sdp" />
+
+</LinearLayout>

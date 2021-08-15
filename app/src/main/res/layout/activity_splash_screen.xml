@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="A P I"
+        android:textColor="@color/darkBlue"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="262sdp"
+        tools:layout_editor_absoluteY="50sdp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="400sp"
+
+
+
+
+    app:lottie_fileName="map_anim.json"
+    app:lottie_loop="false"
+    app:lottie_autoPlay="true" />
+
+
+    <TextView
+        android:id="@+id/byDroc"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_21sdp"
+
+
+        android:fontFamily="@font/poppins"
+        android:text="by Droc"
+        android:textColor="@color/darkBlue"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+</LinearLayout>
